@@ -1,5 +1,5 @@
 FROM nanic/python2.7-alpine:latest
-MAINTAINER nanichowdary.ravilla@gmail.com
+MAINTAINER kumareddy545@gmail.com
 ARG proxy
 ENV https_proxy=$proxy \
 	LANG=en_US.UTF-8 \
