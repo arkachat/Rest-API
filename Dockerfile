@@ -1,4 +1,4 @@
-FROM nanic/python2.7-alpine:latest
+FROM centos/python-27-centos7 
 MAINTAINER kumareddy545@gmail.com
 ARG proxy
 ENV https_proxy=$proxy \
